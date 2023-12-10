@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>營養小町</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #FEEFBA;
+	text-align: center;
+	font-size: 16px;
+}
+.title {
+	font-size: 36px;
+}
+body,td,th {
+	color: #805835;
+	font-family: Adobe 黑体 Std R;
+	font-weight: bold;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('沒按.png','HOME1.PNG')">
+<table border="0" cellpadding="0" cellspacing="0">
+  <tr align="center">
+    <td><a href="javascript:;" target="_top" onclick="MM_nbGroup('down','group1','backmenu','',1)" onmouseover="MM_nbGroup('over','backmenu','沒按.png','',1)" onmouseout="MM_nbGroup('out')"></a></td>
+  </tr>
+</table>
+<table width="99%" border="0">
+  <tr align="center" bgcolor="#EFCA7C">
+    <td height="20" align="left"><a href="book.html"><img src="IMG_0627.PNG" width="63" height="64" /></a><a href="our.html"><img src="IMG_0626.PNG" width="63" height="64" /></a></td>
+    <td height="20" align="center">&nbsp;</td>
+    <td height="20" align="center"><a href="MENU.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image4','','HOME1.PNG',1)"><img src="HOME0.PNG" alt="" name="Image4" width="210" height="60" border="0" id="Image4" /></a></td>
+    <td height="20" align="center">&nbsp;</td>
+    <td height="20" align="center">&nbsp;</td>
+  </tr>
+  <tr align="center">
+    <td height="90" colspan="5" bgcolor="#F4DAA2"><strong class="title">關於我們</strong></td>
+  </tr>
+  <tr valign="middle">
+    <td width="32%" height="215" align="center" bgcolor="#FFFFFF"><img src="IMG_0182.PNG" width="204" height="204" /></td>
+    <td width="2%" align="center" bgcolor="#FFFFFF">&nbsp;</td>
+    <td width="32%" align="center" bgcolor="#FFFFFF"><img src="IMG_0183.PNG" width="204" height="204" /></td>
+    <td width="2%" align="center" bgcolor="#FFFFFF">&nbsp;</td>
+    <td width="32%" align="center" bgcolor="#FFFFFF"><img src="榴槤.png" width="204" height="204" /></td>
+  </tr>
+  <tr align="center" bgcolor="#F9E9C8">
+    <td height="23" bgcolor="#F9E9C8"><strong id="docs-internal-guid-bba599b9-7fff-3c5a-3cec-6646ea43705e">小魚乾</strong></td>
+    <td bgcolor="#F9E9C8">&nbsp;</td>
+    <td bgcolor="#F9E9C8"><strong id="docs-internal-guid-bba599b9-7fff-3c5a-3cec-6646ea43705e3">荔枝</strong></td>
+    <td>&nbsp;</td>
+    <td><strong id="docs-internal-guid-bba599b9-7fff-3c5a-3cec-6646ea43705e4">榴槤</strong></td>
+  </tr>
+  <tr align="left" bgcolor="#F8E3B8">
+    <td height="374" valign="middle" bgcolor="#F8E3B8">
+      <p dir="ltr"><strong id="docs-internal-guid-b299fde1-7fff-63c0-e58f-a1146edc1115">從小開始，我們家就幾乎都是祖母下廚打理全家三餐，所以我多少也在一旁學習過如何料理。</strong></p>
+      <p dir="ltr"><strong>雖然說還沒有實際上料理給別人吃過，但是自己簡單的煮碗麵和湯還是沒有問題。我最初其實不太在意食物的營養價值，覺得吃飽就足夠了，但是太過放縱也對身體開始有所影響，不管是體重或者是體脂率都有所上升。所以我開始會控制飲食和攝取量，但我發現最有效的方法其實是營養攝取必須均衡，因此我學著注重營養素的分配及攝取。</strong></p>
+    <p dir="ltr"><strong id="docs-internal-guid-b299fde1-7fff-63c0-e58f-a1146edc1115">在我的這個目標下，我開始學習一些簡單的料理，在母親和祖母的指導下，我也逐漸感受到了料理的成就感，因此我在和小組成員們討論後，大家一致決定選擇了補充營養素的料理食譜為主題。</strong><br />
+    </p></td>
+    <td>
+      <p dir="ltr"><br />
+    </p></td>
+    <td valign="middle">
+    <p dir="ltr"><strong id="docs-internal-guid-4c7d71cf-7fff-f562-825e-">上大學開始，我便自己在學校附近租房，平時吃什麼都是我自己說了算，可能因為終於獲得自由，一上整個學期便十分放縱自己，想吃什麼就吃什麼，但在放假回家量體重時才意識到不對勁，這啟發了我逐步改善生活方式的旅程。</strong></p>
+    <p dir="ltr"><strong id="docs-internal-guid-4c7d71cf-7fff-f562-825e-">下學期開始，我便嘗試自己煮點東西吃，每餐兩種蔬菜，用水煮的方式調理，再到一些簡單的家常菜和湯料理等，並開始學習關於飲食的重要性，上學期我曾經煮了一整鍋的蔬菜羅宋湯，並找了許多朋友一起分享，這種感覺實在很充實，於是我決定與小組成員們一同使用營養蔬菜達成自己所需的營養素此主題為這次的企劃主題。</strong><br />
+    </p></td>
+    <td>&nbsp;</td>
+    <td valign="middle"><p dir="ltr"><strong id="docs-internal-guid-319f3e17-7fff-d58b-06d5-2fbbec12cb80">由於快速的生活節奏，我經常外出用餐。隨著時間的推移，我意識到自己在特定營養方面攝取不足，因此我開始補充維他命C等營養品，我也開始關注食物的質量和營養價值。</strong></p>
+      <p dir="ltr"><strong>雖然外食非常方便，但我對自己的健康負有責任。這激發了我對食物營養的興趣。</strong></p>
+      <p dir="ltr"><strong id="docs-internal-guid-319f3e17-7fff-d58b-06d5-2fbbec12cb80">為了更好的滿足自己的營養需求，我開始嘗試自己下廚。由於忙碌的生活，我通常選擇簡單又快速的烹飪方法，例如制作一碗番茄豆腐蔬菜湯，這種湯非常適合晚上食用。然而，每次都需要花費時間來查找和學習食材和食譜，於是我決定整理一個食譜，方便自己使用，同時也可以分享給家人和朋友。在與我的小組成員討論後，我們一致決定使用營養食材科普製作作為這次企畫的主題。</strong><br />
+    </p></td>
+  </tr>
+</table>
+
+<p>
+  <map name="unnamed1Map" id="unnamed1Map">
+    <area shape="rect" coords="-63,-58,164,32" href="MENU.html" />
+  </map>
+</p>
+</body>
+</html>
